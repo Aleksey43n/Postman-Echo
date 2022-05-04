@@ -22,7 +22,7 @@ public class PostmanEchoTest {
                 .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
-                .body("data", equalTo("Some Data"))
+                .body("data", equalTo("Data"))
                 .body("headers.content-length", equalTo("9"))
 
         ;
